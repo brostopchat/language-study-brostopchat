@@ -1,0 +1,20 @@
+<h2>Todos page</h2>
+
+{{#if todos.length}}
+<ul class="setka">
+    {{#each todos}}
+        <li class="todo">
+            <label>
+                <input type="checkbox">
+                <span>
+                    {{ title }}
+                </span>
+
+                <button class="btn btn-small">Save</button>
+            </label>
+        </li>
+    {{/each}}
+</ul>
+{{else}}
+<p>No cards!</p>
+{{/if}}

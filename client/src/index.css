@@ -1,0 +1,97 @@
+@import "~materialize-css/dist/css/materialize.min.css";
+
+input.yellow-input {
+    border-bottom: 1px solid #fff!important;
+    box-shadow: 0 1px 0 0 #fff!important;
+}
+
+input.yellow-input + label {
+    color: #ffffff!important;
+}
+
+input.yellow-input:focus + label {
+    color: #ffeb3b!important;
+}
+
+input.yellow-input:focus {
+    border-bottom: 1px solid #ffeb3b!important;
+    box-shadow: 0 1px 0 0 #ffeb3b!important;
+    background-color: rgb(104, 178, 247);
+}
+
+div.auth-input {
+    display: block;
+}
+
+div.block-size {
+    min-height: 250px;
+}
+
+div.createP {
+    padding-top: 2rem;
+}
+
+div.pWrapper {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+#tsparticles {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    background-color: #c0c0c0;
+}
+
+div.container {
+    background-color: #ffffff;
+    
+    position: relative;
+    z-index: 2;
+}
+
+nav {
+    z-index: 2;
+}
+
+div.col.s8.offset-3 {
+    width: 100%;
+}
+
+div.transleteArea {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+div.transleteInputDiv {
+    width: 45%;
+    margin: 15px;
+    border: 1px solid #111;
+    padding: 5px;
+    font-size: 100px;
+}
+
+button.transleteButton {
+    font-size: 25px;
+    position: absolute;
+    right: 0;
+}
+
+div.board {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    padding: 20px;
+}
+
+div.card {
+    padding: 30px;
+    border: 1px solid #111;
+    border-radius: 10px;
+    background-color: rgb(143, 169, 224);
+    margin: 10px;
+}

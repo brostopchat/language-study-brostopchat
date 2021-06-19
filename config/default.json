@@ -1,0 +1,6 @@
+{
+    "mongoUrl": "mongodb+srv://brostopchat:1q2w3e4r5t@cluster0.cb6mp.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+    "port": 5000,
+    "jwtSecret": "boynextdoor",
+    "baseUrl": "http://localhost:5000"
+}

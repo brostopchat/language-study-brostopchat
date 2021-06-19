@@ -1,0 +1,26 @@
+.setka{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.todo {
+    margin-bottom: 1rem;
+}
+
+.todo span-completed {
+    text-decoration: line-through;
+}
+
+.todo label {
+    display: inline-flex;
+    width: 95%;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    background: #f3f3f3;
+    padding: 1rem;
+}
+
+.todo li {
+    z-index: 2;
+}
